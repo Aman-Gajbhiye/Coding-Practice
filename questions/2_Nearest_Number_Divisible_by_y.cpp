@@ -4,8 +4,7 @@ int main(){
     int x,y;
     cin>>x>>y;
    int diff = x+y;
- 
-    int closest;
+   int closest;
     for(int i = 1; i <= x+(y/2); i++){
         if(i%y == 0){
             int diff2 = x - i;
