@@ -3,9 +3,10 @@ using namespace std;
 int main(){
     int n;
     cin>>n;
+    int mid = (n+1)/2;
     for(int i = 1; i <= n; i++){
         for(int j = 1; j <= n; j++){
-            if( i == 3 && j == 3){
+            if( i == mid && j == mid){
                 cout<<"@ ";
             }
             else if(i == 1 or i == n or j == 1 or j == n){
