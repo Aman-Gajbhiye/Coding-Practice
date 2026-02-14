@@ -19,9 +19,9 @@ int main(){
         sum = sum + pow(k,count);
     }
     if(sum == N){
-        cout<<"Amstrong number";
+        cout<<"true";
     }
     else{
-        cout<<"not";
+        cout<<"false";
     }
 }
