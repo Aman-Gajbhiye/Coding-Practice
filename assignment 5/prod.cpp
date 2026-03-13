@@ -19,12 +19,7 @@ int main(){
         for(int k = i + 1; k < n; k++){
             right = right * arr[k];
         }
-        if(left == 0 or right == 0){
-            b[i] = left + right;
-        }
-        else{
-            b[i]= left * right;
-        }
+        b[i]= left * right;
         left = 1;    
         right = 1;
     }
